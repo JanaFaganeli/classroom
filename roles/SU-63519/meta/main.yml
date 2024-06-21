@@ -1,11 +1,15 @@
 # Strojno učenje
-# matej.piculin@fri.uni-lj.si, Petar.Vracar@fri.uni-lj.si
-# Windows, R, RStudio
+# jana.faganeli@fri.uni-lj.si bojan.zunkovic@fri.uni-lj.si
+# Windows, pycharm
+# ne vem, kako to instalirate, pytorch se nacloma instalira s pip ali anaconda
+#conda install pytorch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 -c pytorch
 dependencies:
   - role: python3
   - role: pandas
   - role: scipy
+  - role: numpy
   - role: xgboost
   - role: statsmodels
-  - role: tensorflow
-  - role: statsmodels
+  - role: pytorch
+  - role: torchvision
+  - role: torchaudio
